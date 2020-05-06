@@ -2,7 +2,7 @@
 
 Sudoku number game made in python with pygame. Has a fully functional game board that you can solve from scratch or at a press of a button you can view a backtracking algorithm solve the board for you.
 
-# Run GUI file to run program. Must have pygame installed!
+### Run GUI file to run program. Must have pygame installed!
 
 # GUI.py
 
