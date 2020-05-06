@@ -1,7 +1,6 @@
 
-import random
 import copy
-import Solver
+import random
 
 
 def createCandidates():
@@ -48,4 +47,4 @@ def makeGameBoard(bo):
             gb[i][location] = value
     return gb
 
-# TODO Randomize board even more swap 3x3 left-right or up-down - should perserve soduku rules
+# TODO Randomize board even more swap 3x3 left-right or up-down - should preserve sudoku rules

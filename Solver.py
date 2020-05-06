@@ -1,7 +1,6 @@
 
 import pygame
-import Soduku
-import inspect
+
 
 # returns index of an empty space
 
@@ -59,7 +58,6 @@ def solve(board):
 def solveGUI(obj, dis):
 
     if str(type(obj)) != "<class '__main__.GUI'>":
-        print("we got em")
         exit("invalid obj type")
 
     find = findEmpty(obj.playBoard)
@@ -74,9 +72,7 @@ def solveGUI(obj, dis):
 
             obj.drawGrid(dis)
             obj.drawNums(dis)
-            # GUI.drawGrid(height, width, color1, color2, screen)
-            # GUI.drawBoard(width, height, numSpacing,
-            #               board, numberFont, screen)
+
 
             pygame.display.update()
             pygame.time.delay(100)
